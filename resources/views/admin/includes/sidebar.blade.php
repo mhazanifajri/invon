@@ -13,13 +13,13 @@
                 <ul id="menu-showhide" class="topnav slicknav">
                     <li>
                         <a id="menu-select" class="tooltip-tip" href="/belakang/dashboard" title="Dashboard">
-                            <i class="icon-monitor"></i>
+                            <i class="fontello-chart-bar"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
                 <li>
                     <a class="tooltip-tip" href="#">
-                        <i class=" icon-window"></i>
+                        <i class="fontello-desktop"></i>
                         <span>Webiste</span>
                     </a>
                     <ul>
@@ -38,7 +38,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="blog-list.html">Guest</a>
+                            <a href="/belakang/guest">Guest</a>
                         </li>
                         <li>
                             <a href="blog-detail.html">Group</a>
@@ -50,7 +50,7 @@
                 </li>
                 <li>
                     <a href="#">
-                    <i class="fontello-post"></i>
+                    <i class="fontello-print"></i>
                         <span>Invitation</span>
                     </a>
                     <ul>

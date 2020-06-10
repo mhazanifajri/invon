@@ -23,6 +23,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('belakang', 'Login\LoginController@index'); /// '@' untuk memilih sebuah method dlm class
 Route::post('belakang', 'Login\LoginController@auth')->name('auth.attempt'); /// initial sebuah route_name
 
-//@ adm
+//@ admin
 Route::get('belakang/dashboard', 'Admin\DashboardController@index')->name('dashboard');
 
+//@ guest
+Route::resource('belakang/guest','Admin\GuestController'); /// mendifinisikan bbrapa method secara lgsung

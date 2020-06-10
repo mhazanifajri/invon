@@ -185,14 +185,3 @@
      </nav>
  </div>
  <!-- end of top nav -->
- <!-- breadcrumbs -->
- <ul class="breadcrumbs ">
-     <li><a href="#"><span class="entypo-home"></span></a>
-     </li>
-     <li>UI
-     </li>
-     <li>Element
-     </li>
-
- </ul>
- <!-- end of breadcrumbs -->
