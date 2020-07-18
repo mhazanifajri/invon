@@ -5,11 +5,15 @@
     @include('admin.includes.head')
 </head>
 
-<body>
+<body class="fixed-left">
     <!--//@ preloader -->
+    <!-- Loader -->
     <div id="preloader">
-        <div id="status">&nbsp;</div>
+        <div id="status">
+            <div class="spinner"></div>
+        </div>
     </div>
+
 
     <div class="off-canvas-wrap" data-offcanvas>
         <div class="inner-wrap">
