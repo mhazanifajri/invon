@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Guest;
 
 class GuestController extends Controller
 {
@@ -35,7 +36,15 @@ class GuestController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Guest::create([
+            'name'       => $request->name,
+            'phone'      => $request->phone,
+            'email'      => $request->email,
+            'status'     => 1,
+            'group_id'   => $request->group,
+            's_group_id' => $request->sgroup,
+        ]);
+        return response()->json(["response" =>true]);
     }
 
     /**
