@@ -1,23 +1,21 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>INVON</title>
-<link rel="stylesheet" href="/css/foundation.css" />
-<link rel="stylesheet" href="/css/dashboard.css">
+<title>Invon 2.0</title>
+<!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 11]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="" />
+<meta name="keywords" content="">
+<meta name="author" content="Phoenixcoded" />
+<!-- Favicon icon -->
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<!-- prism css -->
+<link rel="stylesheet" href="/css/plugins/prism-coy.css">
+<!-- vendor css -->
 <link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/dripicon.css">
-<link rel="stylesheet" href="/css/typicons.css" />
-<link rel="stylesheet" href="/css/font-awesome.css" />
-<link rel="stylesheet" href="/css/theme.css">
-
-<!-- pace loader -->
-<link href="/js/pace/themes/orange/pace-theme-flash.css" rel="stylesheet" />
-<link rel="stylesheet" href="/js/slicknav/slicknav.css" />
-
-<!-- <link rel="stylesheet" href="/js/tip/tooltipster.css">
-<link rel="stylesheet" href="/js/chartist/chartist.min.css">
-<link rel="stylesheet" href="/js/vegas/jquery.vegas.css" />
-<link rel="stylesheet" href="/js/range-slider/jquery.range2dslider.css" />
-<link rel="stylesheet" href="/js/number-progress-bar/number-pb.css">
-<script src="/js/pace/pace.js"></script>
-<script src="/js/vendor/modernizr.js"></script> -->
-<script type='text/javascript' src="/js/jquery.js"></script>

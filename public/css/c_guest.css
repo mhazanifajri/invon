@@ -1,9 +1,0 @@
-.reveal-modal >:last-child, dialog >:last-child {
-    margin-top: 20px;
-}
-.reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
-    font-size: 1.5rem;
-}
-input[type="checkbox"]{
-    margin : 0;
-}

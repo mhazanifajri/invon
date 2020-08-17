@@ -163,7 +163,7 @@
             cache: false,
             success: function(data) {
                 if (data.response == true) {
-                    alert('success')
+                    $('#AddGuest').foundation('close');
                 }
             }
         });
