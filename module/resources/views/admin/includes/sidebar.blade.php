@@ -2,7 +2,7 @@
     <div class="navbar-content scroll-div">
         <div class="">
             <div class="main-menu-header">
-                <img class="img-radius" src="/images/user/avatar-2.jpg" alt="User-Profile-Image">
+                <img class="img-radius" src="{{ asset('/images/user/avatar-2.jpg') }}" alt="User-Profile-Image">
                 <div class="user-details">
                     <div id="more-details">Administrator<i class="fa fa-caret-down"></i></div>
                 </div>

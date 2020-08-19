@@ -2,8 +2,8 @@
     <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
     <a href="#!" class="b-brand">
         <!-- ========   change your logo hear   ============ -->
-        <img src="/images/logo.png" alt="" class="logo">
-        <img src="/images/logo-icon.png" alt="" class="logo-thumb">
+        <img src="{{ asset('/images/logo.png') }}" alt="" class="logo">
+        <img src="{{ asset('/images/logo-icon.png') }}" alt="" class="logo-thumb">
     </a>
     <a href="#!" class="mob-toggler">
         <i class="feather icon-more-vertical"></i>
@@ -39,7 +39,7 @@
                         </li>
                         <li class="notification">
                             <div class="media">
-                                <img class="img-radius" src="/images/user/avatar-1.jpg" alt="Generic placeholder image">
+                                <img class="img-radius" src="{{ asset('/images/user/avatar-1.jpg') }}" alt="Generic placeholder image">
                                 <div class="media-body">
                                     <p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
                                     <p>New ticket Added</p>
@@ -51,7 +51,7 @@
                         </li>
                         <li class="notification">
                             <div class="media">
-                                <img class="img-radius" src="/images/user/avatar-2.jpg" alt="Generic placeholder image">
+                                <img class="img-radius" src="{{ asset('/images/user/avatar-2.jpg') }}" alt="Generic placeholder image">
                                 <div class="media-body">
                                     <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
                                     <p>Prchace New Theme and make payment</p>
@@ -60,7 +60,7 @@
                         </li>
                         <li class="notification">
                             <div class="media">
-                                <img class="img-radius" src="/images/user/avatar-1.jpg" alt="Generic placeholder image">
+                                <img class="img-radius" src="{{ asset('/images/user/avatar-1.jpg') }}" alt="Generic placeholder image">
                                 <div class="media-body">
                                     <p><strong>Sara Soudein</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 min</span></p>
                                     <p>currently login</p>
@@ -69,7 +69,7 @@
                         </li>
                         <li class="notification">
                             <div class="media">
-                                <img class="img-radius" src="/images/user/avatar-2.jpg" alt="Generic placeholder image">
+                                <img class="img-radius" src="{{ asset('/images/user/avatar-2.jpg') }}" alt="Generic placeholder image">
                                 <div class="media-body">
                                     <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
                                     <p>Prchace New Theme and make payment</p>
@@ -90,7 +90,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right profile-notification">
                     <div class="pro-head">
-                        <img src="/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image">
+                        <img src="{{ asset('/images/user/avatar-1.jpg') }}" class="img-radius" alt="User-Profile-Image">
                         <span>John Doe</span>
                         <a href="auth-signin.html" class="dud-logout" title="Logout">
                             <i class="feather icon-log-out"></i>

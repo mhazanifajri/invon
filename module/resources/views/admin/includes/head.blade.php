@@ -14,8 +14,8 @@
 <meta name="keywords" content="">
 <meta name="author" content="Phoenixcoded" />
 <!-- Favicon icon -->
-<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ asset('/images/favicon.ico') }}" type="image/x-icon">
 <!-- prism css -->
-<link rel="stylesheet" href="/css/plugins/prism-coy.css">
+<link rel="stylesheet" href="{{ asset('/css/plugins/prism-coy.css') }}">
 <!-- vendor css -->
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="{{ asset('/css/style.css') }}">
