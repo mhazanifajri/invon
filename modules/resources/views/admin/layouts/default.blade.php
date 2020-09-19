@@ -30,7 +30,6 @@
         @yield('content')
     <!-- [ Content ] end -->
 
-    @include('admin.includes.script')
     <!-- Warning Section start -->
     <!-- Older IE warning message -->
     <!--[if lt IE 11]>

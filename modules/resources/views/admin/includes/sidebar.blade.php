@@ -16,7 +16,7 @@
             </div>
         </div>
         <ul class="nav pcoded-inner-navbar">
-            <li class="nav-item"><a href="{{ url('belakang/dashboard') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-grid"></i></span><span class="pcoded-mtext">Dashboard</span></a></li>
+            <li class="nav-item"><a href="{{ url('admin/dashboard') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-grid"></i></span><span class="pcoded-mtext">Dashboard</span></a></li>
             <li class="nav-item pcoded-menu-caption">
                 <label>Website</label>
             </li>
@@ -25,7 +25,7 @@
             <li class="nav-item pcoded-menu-caption">
                 <label>Users</label>
             </li>
-            <li class="nav-item"><a href="{{ url('belakang/guest') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-user"></i></span><span class="pcoded-mtext">Guest</span></a></li>
+            <li class="nav-item"><a href="{{ url('admin/guest') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-user"></i></span><span class="pcoded-mtext">Guest</span></a></li>
             <li class="nav-item"><a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-users"></i></span><span class="pcoded-mtext">Group</span></a></li>
             <li class="nav-item"><a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-message-circle"></i></span><span class="pcoded-mtext">Comment</span></a></li>
             <li class="nav-item pcoded-menu-caption">

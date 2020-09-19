@@ -131,4 +131,5 @@
         <!-- [ Main Content ] end -->
     </div>
 </div>
+<script src="{{ asset('/js/plugins/prism.js') }}"></script>
 @endsection

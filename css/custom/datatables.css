@@ -1,0 +1,44 @@
+.table.dataTable[class*="table-"] thead th {
+    background: none;
+    color: #343a40;
+    font-weight: revert;
+    font-family: 'Source Sans Pro', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+table.dataTable.table-sm .sorting:before,
+table.dataTable.table-sm .sorting_asc:before,
+table.dataTable.table-sm .sorting_desc:before {
+    top: 10px;
+}
+
+table.dataTable.table-sm .sorting:after,
+table.dataTable.table-sm .sorting_asc:after,
+table.dataTable.table-sm .sorting_desc:after {
+    top: 10px;
+}
+
+.table-hover tbody tr:hover {
+    cursor: pointer;
+}
+
+.table a:hover {
+    color: #0d3f7b;
+    text-decoration: underline;
+}
+
+.table a {
+    color: #1462c0;
+}
+
+/* //? scrollX datatable */
+.scrollbar::-webkit-scrollbar {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    height: 8px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #98aec9;
+}

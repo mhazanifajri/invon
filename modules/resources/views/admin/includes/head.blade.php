@@ -13,9 +13,13 @@
 <meta name="description" content="" />
 <meta name="keywords" content="">
 <meta name="author" content="Phoenixcoded" />
-<!-- Favicon icon -->
+<!-- //@ Core CSS  -->
 <link rel="icon" href="{{ asset('/images/favicon.ico') }}" type="image/x-icon">
-<!-- prism css -->
 <link rel="stylesheet" href="{{ asset('/css/plugins/prism-coy.css') }}">
-<!-- vendor css -->
 <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+<!--//@ Core Js -->
+<script src="{{ asset('/js/vendor-all.min.js') }}"></script>
+<script src="{{ asset('/js/plugins/bootstrap.min.js') }}"></script>
+<script src="{{ asset('/js/ripple.js') }}"></script>
+<script src="{{ asset('/js/pcoded.min.js') }}"></script>
+<script src="{{ asset('/js/menu-setting.min.js') }}"></script>

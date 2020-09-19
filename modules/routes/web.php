@@ -20,11 +20,12 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //@ login
-Route::get('belakang', 'Login\LoginController@index'); /// '@' untuk memilih sebuah method dlm class
-Route::post('belakang', 'Login\LoginController@auth')->name('auth.attempt'); /// initial sebuah route_name
+Route::get('admin', 'Login\LoginController@index'); /// '@' untuk memilih sebuah method dlm class
+Route::post('admin', 'Login\LoginController@auth')->name('auth.attempt'); /// initial sebuah route_name
 
 //@ admin
-Route::get('belakang/dashboard', 'Admin\DashboardController@index')->name('dashboard');
+Route::get('admin/dashboard', 'Admin\DashboardController@index')->name('dashboard');
 
 //@ guest
-Route::resource('belakang/guest','Admin\GuestController'); /// mendifinisikan bbrapa method secara lgsung
+Route::resource('admin/guest','Admin\GuestController'); /// mendifinisikan bbrapa method secara lgsung
+Route::get('guest/create', 'Admin\GuestController@create'); /// datatables data

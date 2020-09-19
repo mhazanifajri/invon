@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Guest;
+
+use Datatables;
+use App\Models\Guest;
 
 class GuestController extends Controller
 {
@@ -25,7 +27,7 @@ class GuestController extends Controller
      */
     public function create()
     {
-        //
+        return Datatables::of(Guest::query())->make(true); /// get data
     }
 
     /**
@@ -37,12 +39,13 @@ class GuestController extends Controller
     public function store(Request $request)
     {
         Guest::create([
-            'name'       => $request->name,
-            'phone'      => $request->phone,
-            'email'      => $request->email,
-            'status'     => 1,
-            'group_id'   => $request->group,
-            's_group_id' => $request->sgroup,
+            'name'         => $request->name,
+            'email'        => $request->email,
+            'phone'        => $request->phone,
+            'address'      => $request->address,
+            'status'       => 'Y',
+            // 'id_group'     => 1,
+            // 'id_sub_group' => 1,
         ]);
         return response()->json(["response" =>true]);
     }
@@ -55,7 +58,7 @@ class GuestController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**
