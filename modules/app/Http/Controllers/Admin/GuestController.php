@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 use Datatables;
+use Illuminate\Support\Facades\DB; /// penggunaan librarty untuk query builder
 use App\Models\Guest;
 
 class GuestController extends Controller
@@ -81,7 +82,14 @@ class GuestController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $guest          = Guest::find($id);
+        $guest->name    = $request->name;
+        $guest->email   = $request->email;
+        $guest->phone   = $request->phone;
+        $guest->address = $request->address;
+        $guest->status  = $request->status;
+        $guest->save();
+        return response()->json(["response" =>true]);
     }
 
     /**
@@ -93,5 +101,12 @@ class GuestController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function multiple_delete(Request $request){
+        $req = $request->id_guest;
+        foreach ($req as $value) {
+            Guest::find($value)->delete();
+        }
+        return response()->json($request->id_guest);
     }
 }

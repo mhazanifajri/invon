@@ -27,5 +27,7 @@ Route::post('admin', 'Login\LoginController@auth')->name('auth.attempt'); /// in
 Route::get('admin/dashboard', 'Admin\DashboardController@index')->name('dashboard');
 
 //@ guest
+Route::post('/guest/multi_deleted', 'Admin\GuestController@multiple_delete');
+Route::get('/guest/create', 'Admin\GuestController@create'); /// datatables data
+Route::post('/admin/guest/{id}','Admin\GuestController@update'); /// because the method post reinit the method of controller 
 Route::resource('admin/guest','Admin\GuestController'); /// mendifinisikan bbrapa method secara lgsung
-Route::get('guest/create', 'Admin\GuestController@create'); /// datatables data
